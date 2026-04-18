@@ -29,7 +29,7 @@
     {
       "organization": "CommitDate",
       "period": "2024.12 - 2025.01",
-      "role": "FullStack 개발",
+      "role": "Backend / Frontend 개발",
       "tasks": [
         "OAuth + Form 로그인 통합 인증 시스템 구축 (Google, Naver OAuth)",
         "Spring Security 기반 세션 인증 구현",
@@ -63,7 +63,7 @@
     {
       "title": "CommitDate — 개발자 팀원 매칭 플랫폼",
       "period": "2024.12 - 2025.01",
-      "summary": "개발 능력이 비슷한 팀원을 매칭해주는 플랫폼 (FullStack 개발)",
+      "summary": "협업할 팀원을 매칭해주는 플랫폼 (FullStack 개발)",
       "description": [
         "OAuth 통합 인증: Google/Naver OAuth + Spring Security 폼 로그인 통합",
         "회원 관리 시스템: 클라이언트·서버 이중 검증으로 데이터 무결성 강화",
