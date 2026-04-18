@@ -1,0 +1,101 @@
+{
+  "profile": {
+    "name": "심윤보",
+    "title": "Backend / Frontend Developer",
+    "email": "ensoary@gmail.com",
+    "location": "인천, 대한민국"
+  },
+  "introduce": [
+  "단순한 기능 구현을 넘어, JWT Key Rotation 및 gRPC 기반 공개키 동기화를 통해 보안과 확장성을 동시에 확보한 '신뢰할 수 있는 백엔드'를 설계합니다.",
+  "Accord 프로젝트에서 댓글 시스템 코드를 1,100줄에서 250줄로 77% 최적화하며, 복잡도를 낮추고 유지보수성을 극대화하는 리팩토링의 가치를 증명했습니다.",
+  "Figma 기획 참여부터 AWS 배포, Swagger 문서화 및 JUnit5 테스트 코드 작성까지, 개발 전 과정에서 '팀의 생산성을 높이는 협업'을 최우선으로 실천합니다."
+  ],
+  "experience": [
+    {
+      "organization": "Accord",
+      "period": "2025.01 - 2025.02",
+      "role": "Backend / Frontend 개발",
+      "tasks": [
+        "OAuth2 + JWT 기반 무상태 인증 아키텍처 설계·구현 (Kakao 소셜 로그인 연동)",
+        "JWT 보안 고도화: HS256 → RS256 비대칭키 기반 Key Rotation 시스템 구현",
+        "gRPC 기반 공개키 실시간 동기화 구현 (마이크로서비스 환경 대응)",
+        "Admin 회원 관리 시스템 개발 (조회·검색·상태 변경)",
+        "17개 컨트롤러 Swagger API 문서화 (Auth, Member, Admin, AI, Chat, Kanban)",
+        "프론트엔드: OAuth 로그인 모달, 전역 인증 상태 관리(Recoil), RBAC 접근 제어",
+        "코드 리팩토링: 댓글 시스템 1100줄 → 250줄로 최적화 (77% 감소)"
+      ],
+      "skills": ["Java", "Spring Boot", "Spring Security", "JWT", "OAuth2", "gRPC", "React", "Recoil", "MariaDB", "Redis", "JUnit5", "Mockito"]
+    },
+    {
+      "organization": "CommitDate",
+      "period": "2024.12 - 2025.01",
+      "role": "FullStack 개발",
+      "tasks": [
+        "OAuth + Form 로그인 통합 인증 시스템 구축 (Google, Naver OAuth)",
+        "Spring Security 기반 세션 인증 구현",
+        "회원 관리 시스템 전체 개발 (가입·로그인·프로필·탈퇴·중복검사)",
+        "SMTP 기반 이메일 인증 및 비밀번호 재설정 시스템 구현",
+        "웹 보안 적용 (CSRF, CORS, XSS 방지)",
+        "Entity Setter 제거를 통한 데이터 무결성 강화",
+        "Service 계층 중심 아키텍처 설계 및 인증 테스트 코드 작성"
+      ],
+      "skills": ["Java", "Spring Boot", "Spring Security", "Spring Data JPA", "React", "TailwindCSS", "MariaDB", "SMTP", "Git"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Accord — 팀 협업 플랫폼",
+      "period": "2025.01 - 2025.02",
+      "summary": "캔버스·칸반·채팅·AI 기능을 제공하는 팀 협업 웹 서비스 (5명 팀 프로젝트)",
+      "description": [
+        "OAuth2 + JWT 무상태 인증: 서버 세션 제거 → 수평 확장 가능한 구조 구축",
+        "JWT Key Rotation (HS256 → RS256): 무중단 키 교체 및 보안 수준 향상",
+        "gRPC 공개키 동기화: 분산 환경에서 JWT 검증 키 불일치 문제 해결",
+        "Admin 회원 관리 시스템: 도메인 분리 설계로 유지보수성 향상",
+        "17개 API Swagger 문서화 및 병렬 개발 환경 구축",
+        "프론트엔드: Recoil 전역 상태 관리, RBAC 접근 제어, IME 버그 해결",
+        "약 2,500+ lines 코드 기여 / 50+ 커밋"
+      ],
+      "skills": ["Java", "Spring Boot", "Spring Security", "JWT", "OAuth2", "gRPC", "React", "Recoil", "TailwindCSS", "MariaDB", "Redis", "JUnit5", "Mockito", "Swagger"],
+      "github": "https://github.com/no-team-name",
+      "demo": "https://youtu.be/DBRh51izCh8"
+    },
+    {
+      "title": "CommitDate — 개발자 팀원 매칭 플랫폼",
+      "period": "2024.12 - 2025.01",
+      "summary": "개발 능력이 비슷한 팀원을 매칭해주는 플랫폼 (FullStack 개발)",
+      "description": [
+        "OAuth 통합 인증: Google/Naver OAuth + Spring Security 폼 로그인 통합",
+        "회원 관리 시스템: 클라이언트·서버 이중 검증으로 데이터 무결성 강화",
+        "이메일 인증 시스템: SMTP 기반 임시 비밀번호 발송 및 계정 복구",
+        "웹 보안 적용: CSRF, CORS, XSS 방지로 기본 취약점 대응",
+        "아키텍처 개선: Entity 불변성 강화, Service 계층 중심 설계",
+        "테스트 코드 작성: 인증·회원 로직 단위 테스트로 리팩토링 안정성 확보"
+      ],
+      "skills": ["Java", "Spring Boot", "Spring Security", "Spring Data JPA", "React", "TailwindCSS", "MariaDB", "SMTP", "Git", "JUnit5"],
+      "github": "https://github.com/est-backend7-3team/CommitDate"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend",
+      "items": ["Java", "Spring Boot", "Spring Security", "Spring Data JPA", "JWT", "OAuth2", "gRPC", "REST API"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Recoil", "TailwindCSS", "Material UI", "Semantic UI", "JavaScript/TypeScript"]
+    },
+    {
+      "category": "Database & Infrastructure",
+      "items": ["MariaDB", "Redis", "MongoDB", "AWS S3", "Docker", "Linux"]
+    },
+    {
+      "category": "Tools & Testing",
+      "items": ["Git", "GitHub", "Swagger", "JUnit5", "Mockito", "SMTP", "Figma"]
+    },
+    {
+      "category": "Core Competency",
+      "items": ["인증·인가 구조 설계", "마이크로서비스 통신", "보안 (JWT, OAuth2, CSRF)", "FullStack 개발", "API 문서화", "Test-Driven Development"]
+    }
+  ]
+}
