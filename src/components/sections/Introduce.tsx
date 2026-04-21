@@ -6,23 +6,23 @@ interface IntroduceProps {
 
 export function Introduce({ data }: IntroduceProps) {
   const categories = [
-    {
-      title: "Backend",
-      description: "Java, Spring Boot, JWT, OAuth2, gRPC 기반 보안 중심 백엔드 아키텍처 설계",
-      tags: ["Spring Security", "JWT", "gRPC"]
-    },
-    {
-      title: "Frontend",
-      description: "React, Recoil, TailwindCSS를 활용한 인터랙티브 사용자 경험 구현",
-      tags: ["React", "Recoil", "TailwindCSS"],
-      highlight: true
-    },
-    {
-      title: "FullStack Development",
-      description: "인증·회원·관리자 기능을 포함한 실서비스 수준 웹 서비스 2건 개발",
-      tags: ["End-to-End", "API Design", "Testing"]
-    }
-  ]
+  {
+    title: "Backend Architecture",
+    description: "Java, Spring Boot, JWT, OAuth2, gRPC 기반 인증·보안 중심 백엔드 아키텍처 설계",
+    tags: ["Spring Security", "JWT", "gRPC"]
+  },
+  {
+    title: "Product Implementation",
+    description: "React, Recoil, TailwindCSS를 활용한 인터랙티브 UI 구현 및 실서비스 수준 웹 서비스 개발",
+    tags: ["React", "Recoil", "API Design"],
+    highlight: true
+  },
+  {
+    title: "AI-Driven System Design",
+    description: "역할 기반 에이전트 구조와 컨텍스트 관리 방식을 포함한 AI 주도 개발 운영 구조 설계",
+    tags: ["System Design", "Workflow", "AI-Driven Dev"]
+  }
+]
 
   return (
     <section className="section pt-12" id="introduce">
