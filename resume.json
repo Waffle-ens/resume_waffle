@@ -8,9 +8,28 @@
   "introduce": [
   "단순한 기능 구현을 넘어, JWT Key Rotation 및 gRPC 기반 공개키 동기화를 통해 보안과 확장성을 동시에 확보한 '신뢰할 수 있는 백엔드'를 설계합니다.",
   "Accord 프로젝트에서 댓글 시스템 코드를 1,100줄에서 250줄로 77% 최적화하며, 복잡도를 낮추고 유지보수성을 극대화하는 리팩토링의 가치를 증명했습니다.",
-  "Figma 기획 참여부터 AWS 배포, Swagger 문서화 및 JUnit5 테스트 코드 작성까지, 개발 전 과정에서 '팀의 생산성을 높이는 협업'을 최우선으로 실천합니다."
+  "Figma 기획 참여부터 AWS 배포, Swagger 문서화 및 JUnit5 테스트 코드 작성까지, 개발 전 과정에서 '팀의 생산성을 높이는 협업'을 최우선으로 실천합니다.",
+  "또한 AI 주도 개발 운영 콘솔(Nimadub) 설계를 통해, 역할 기반 에이전트 구조와 컨텍스트 관리 방식을 고민하며 개발 생산성을 시스템 차원에서 개선하는 방법론을 구체화했습니다."
   ],
   "experience": [
+    {
+      "organization": "Nimadub",
+      "period": "2025.02 - 진행중",
+      "role": "AI-Driven 개발 방법론 설계 / 운영 콘솔 기획",
+      "tasks": [
+        "AI 에이전트 중심 개발 운영 구조 및 MVP 요구사항 정의",
+        "컨텍스트 계층 분리 기반 메모리 운영 방식 설계",
+        "역할 기반 에이전트 조직, 승인 게이트, 배포 통제 구조 정의",
+        "작업·문서·의사결정·승인·감사 로그를 연결하는 내부 운영 모델 설계",
+        "상세 설계 문서 및 운영 방법론은 요청 시 별도 공유 가능"
+      ],
+      "skills": [
+        "System Design",
+        "Software Architecture",
+        "AI-assisted Development",
+        "Workflow Design"
+      ]
+    },
     {
       "organization": "Accord",
       "period": "2025.01 - 2025.02",
@@ -29,7 +48,7 @@
     {
       "organization": "CommitDate",
       "period": "2024.12 - 2025.01",
-      "role": "Backend / Frontend 개발",
+      "role": "FullStack 개발",
       "tasks": [
         "OAuth + Form 로그인 통합 인증 시스템 구축 (Google, Naver OAuth)",
         "Spring Security 기반 세션 인증 구현",
@@ -43,6 +62,28 @@
     }
   ],
   "projects": [
+    {
+      "title": "Nimadub — AI 주도 개발 운영 콘솔 / 개발 방법론 설계",
+      "period": "2025.02 - 진행중",
+      "summary": "AI 에이전트 중심 개발 운영 구조를 정의하고, 작업·문서·승인·메모리 관리를 통합한 내부용 운영 콘솔 MVP를 설계",
+      "description": [
+        "AI 에이전트 중심 개발 운영 구조 기획 및 MVP 요구사항 정의",
+        "컨텍스트를 헌법 / 스프린트 / 작업 / 기록 계층으로 분리하는 메모리 운영 방식 설계",
+        "PM, Architect, Developer, QA, DevOps/SRE 등 역할 기반 에이전트 체계와 승인·배포 게이트 정의",
+        "작업, 문서, 의사결정, 승인, 메모리 스냅샷, 감사 로그를 연결하는 내부 운영 모델 설계",
+        "외부 협업툴 의존도를 줄이고 AI 주도 개발 흐름을 단일 콘솔에서 재현 가능한 구조로 구체화",
+        "상세 설계 문서 및 운영 방법론은 요청 시 별도 공유 가능"
+      ],
+      "skills": [
+        "System Design",
+        "AI-assisted Development",
+        "Software Architecture",
+        "Developer Productivity",
+        "Workflow Design",
+        "Prompt Engineering"
+      ],
+      "github": "https://github.com/Waffle-ens/nimadub"
+    },
     {
       "title": "Accord — 팀 협업 플랫폼",
       "period": "2025.01 - 2025.02",
@@ -63,7 +104,7 @@
     {
       "title": "CommitDate — 개발자 팀원 매칭 플랫폼",
       "period": "2024.12 - 2025.01",
-      "summary": "협업할 팀원을 매칭해주는 플랫폼 (FullStack 개발)",
+      "summary": "개발 능력이 비슷한 팀원을 매칭해주는 플랫폼 (FullStack 개발)",
       "description": [
         "OAuth 통합 인증: Google/Naver OAuth + Spring Security 폼 로그인 통합",
         "회원 관리 시스템: 클라이언트·서버 이중 검증으로 데이터 무결성 강화",
